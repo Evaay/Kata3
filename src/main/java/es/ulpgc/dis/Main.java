@@ -1,5 +1,9 @@
 package es.ulpgc.dis;
 
+import es.ulpgc.dis.Control.HistogramGenerator;
+import es.ulpgc.dis.Model.Title;
+import es.ulpgc.dis.io.TSVTitleReader;
+
 import java.io.File;
 import java.util.List;
 import java.util.Map;

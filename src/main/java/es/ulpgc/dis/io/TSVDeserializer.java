@@ -1,9 +1,11 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.io;
+
+import es.ulpgc.dis.Model.Title;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TSVDeserializer implements Deserializer{
+public class TSVDeserializer implements Deserializer {
     @Override
     public Title deserialize(String line) {
         String[] fields = line.split("\t");

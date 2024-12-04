@@ -1,4 +1,6 @@
-package es.ulpgc.dis;
+package es.ulpgc.dis.Control;
+
+import es.ulpgc.dis.Model.Title;
 
 import java.util.HashMap;
 import java.util.List;
