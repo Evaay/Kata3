@@ -2,6 +2,7 @@ package es.ulpgc.dis.Control;
 
 import es.ulpgc.dis.Model.Histogram;
 import es.ulpgc.dis.Model.Title;
+import es.ulpgc.dis.Model.TitletypeHistogram;
 import es.ulpgc.dis.io.TSVTitleReader;
 
 import java.io.File;
@@ -27,6 +28,6 @@ public class TitleTypeHistogramLoader implements HistogramLoader{
 
     @Override
     public Histogram load(String archive) {
-        return null;
+        return new TitletypeHistogram(createMapHistogram(archive));
     }
 }
