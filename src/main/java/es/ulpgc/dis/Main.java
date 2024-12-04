@@ -1,6 +1,6 @@
 package es.ulpgc.dis;
 
-import es.ulpgc.dis.Control.HistogramGenerator;
+import es.ulpgc.dis.Control.TitleTypeHistogramLoader;
 import es.ulpgc.dis.Model.Title;
 import es.ulpgc.dis.io.TSVTitleReader;
 
@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         File file = new File(".\\src\\main\\resources\\title.basics.tsv");
         List<Title> titles = new TSVTitleReader(file).read();
-        Map<Title.TitleType, Integer> histogram = new HistogramGenerator().generate(titles);
+        Map<Title.TitleType, Integer> histogram = new TitleTypeHistogramLoader().generate(titles);
         printHistogram(histogram);
     }
 
