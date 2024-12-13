@@ -1,7 +1,7 @@
 package es.ulpgc.dis;
 
-import es.ulpgc.dis.Control.HistogramLoader;
-import es.ulpgc.dis.Control.TitleTypeHistogramLoader;
+import es.ulpgc.dis.io.HistogramLoader;
+import es.ulpgc.dis.io.TitleTypeHistogramLoader;
 import es.ulpgc.dis.View.MainFrame;
 
 public class Main {

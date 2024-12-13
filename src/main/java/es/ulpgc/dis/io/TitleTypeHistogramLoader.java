@@ -1,9 +1,8 @@
-package es.ulpgc.dis.Control;
+package es.ulpgc.dis.io;
 
 import es.ulpgc.dis.Model.Histogram;
 import es.ulpgc.dis.Model.Title;
 import es.ulpgc.dis.Model.TitletypeHistogram;
-import es.ulpgc.dis.io.TSVTitleReader;
 
 import java.io.File;
 import java.util.HashMap;

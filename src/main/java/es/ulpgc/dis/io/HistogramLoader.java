@@ -1,4 +1,4 @@
-package es.ulpgc.dis.Control;
+package es.ulpgc.dis.io;
 
 import es.ulpgc.dis.Model.Histogram;
 
